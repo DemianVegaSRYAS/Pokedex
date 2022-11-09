@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(206, 210, 213);
+    display: grid;
+    grid-template-rows: repeat(2, 10% 70%);
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+input {
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+.pokedex_wrap{
+    width: 60vw;
+    height: 60vh;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 9px 10px 11px -1px rgba(0, 0, 0, 0.75);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+}
+.image_wrap{
+    
+    background-color: white;
+    width: auto;
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom:0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+
+}
+/* .information{
+    background-color: white;
+    width: auto;
+    height: 20%;
+    border-radius: 5px;
+    margin:0.5em;
+    padding: 1em;
+    overflow-y: scroll;
+    
+} */
+
